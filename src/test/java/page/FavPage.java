@@ -24,30 +24,23 @@ public class FavPage extends BasePage {
     //ürün sayfasını yan tab içerside açıp ekleme ve tab kapama işlemi
     public void addToProduct(WebDriver driver) throws InterruptedException {
 
-        String currentWindow = driver.getWindowHandle();
-        String currentWindow2 = driver.getWindowHandle();
+        currentWindow = driver.getWindowHandle();
+        String currentWindow2;
 
         actions.moveToElement(driver.findElement(productButton)).keyDown(Keys.CONTROL).perform();
         TimeUnit.SECONDS.sleep(1);
         actions.click().perform();
+        actions.keyUp(Keys.CONTROL).build().perform();
 
         //Yan tab geçişi
-        windowHandles = driver.getWindowHandles();
+        switchTab(driver, currentWindow);
 
-        for (String window : windowHandles) {
-            if (!currentWindow.equals(window)) {
-
-                driver.switchTo().window(window);
-                currentWindow = window;
-
-            }
-        }
+        currentWindow2 = driver.getWindowHandle();
 
         productPage.addProduct(driver);
 
-        driver.switchTo().window(currentWindow).close();
-        driver.switchTo().window(currentWindow2);
-
+        driver.switchTo().window(currentWindow2).close();
+        driver.switchTo().window(currentWindow);
     }
 
     /*public void setFavProductList() {
@@ -86,17 +79,9 @@ public class FavPage extends BasePage {
 
         }*/
 
-        String currentWindow = driver.getWindowHandle();
-
         actions.moveToElement(driver.findElement(favProductElement)).click().build().perform();
         TimeUnit.SECONDS.sleep(1);
         actions.moveToElement(driver.findElement(removeButton)).click().build().perform();
-
-        windowHandles = driver.getWindowHandles();
-
-        driver.switchTo().window(windowHandles.iterator().next()).close();
-
-        switchTab(driver,currentWindow);
 
     }
 
@@ -105,15 +90,13 @@ public class FavPage extends BasePage {
 
         String currentWindow = driver.getWindowHandle();
 
-        windowHandles = driver.getWindowHandles();
+        TimeUnit.SECONDS.sleep(2);
 
-        driver.switchTo().window(windowHandles.iterator().next());
+        actions.moveToElement(driver.findElement(homePageButton)).keyDown(Keys.CONTROL).click().build().perform();
 
         TimeUnit.SECONDS.sleep(2);
 
-        actions.moveToElement(driver.findElement(homePageButton)).click().build().perform();
-
-        TimeUnit.SECONDS.sleep(2);
+        actions.keyUp(Keys.CONTROL).build().perform();
 
         switchTab(driver,currentWindow);
 

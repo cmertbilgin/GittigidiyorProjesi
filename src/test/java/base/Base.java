@@ -10,6 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 public class Base {
 
@@ -19,6 +20,8 @@ public class Base {
 
     protected static Actions actions;
     protected static Set<String> windowHandles;
+
+    protected String currentWindow;
 
     @Before
     public void setUp() {
@@ -38,9 +41,10 @@ public class Base {
     }
 
     @After
-    public void tearDown() {
+    public void tearDown() throws InterruptedException {
 
         logger.info("Test bitti");
+        TimeUnit.SECONDS.sleep(1);
         driver.quit();
 
     }

@@ -22,7 +22,7 @@ public class Homepage extends BasePage {
     By loginPageCheckElement = By.xpath("//div[@class=\"gg-login-head\"]");
 
     String searchCheck;
-    Set<String> windowHandles;
+    //Set<String> windowHandles;
 
     public void goToHomepage(WebDriver driver){
 
@@ -86,34 +86,19 @@ public class Homepage extends BasePage {
     //Çıkış yapma
     public void logout(WebDriver driver) throws InterruptedException {
 
-        String currentWindow = driver.getWindowHandle();
-        String currentWindow2 = driver.getWindowHandle();
-        String logoutCheck;
-
         logger.info("Çıkış yapılıyor");
 
         actions.moveToElement(driver.findElement(loginButton)).click().build().perform();
         TimeUnit.SECONDS.sleep(1);
         actions.moveToElement(driver.findElement(logoutButton)).click().build().perform();
 
-        windowHandles = driver.getWindowHandles();
-
-        for (String window : windowHandles) {
-            if (!currentWindow.equals(window)) {
-
-                driver.switchTo().window(window);
-                currentWindow = window;
-
-            }
-        }
-
-        driver.switchTo().window(windowHandles.iterator().next()).close();
-
-        switchTab(driver,currentWindow);
-
         logger.info("Çıkış yapıldı");
 
-        driver.close();
+        currentWindow = driver.getWindowHandle();
+
+        driver.switchTo().window(currentWindow).close();
+
+        TimeUnit.SECONDS.sleep(1);
 
     }
 
