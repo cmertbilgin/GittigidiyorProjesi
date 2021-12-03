@@ -62,11 +62,14 @@ public class SearchPage extends BasePage {
     //Favorilere ekleme
     public void addFav(WebDriver driver) throws InterruptedException {
 
+        logger.info("Favorilere ürünler eklenmeye başlıyor");
+
         collectProducts();
         setFavProducts();
 
         for (int i = 0; i < 4; i++) {
 
+            logger.info((i+1)+". ürün favorilere ekleniyor");
 
             By markedProductElement = By.xpath("(//h2[@class=\"sc-1ku3a4v-0 sc-7u3xly-0 hYkpAn jytHfD sc-1n49x8z-16 iqsmnF\"])["+(i+1)+"]");
             favori = By.xpath(favProduct[i]);
@@ -78,11 +81,15 @@ public class SearchPage extends BasePage {
 
             executor.executeScript("arguments[0].click();", element);
 
+            logger.info((i+1)+". ürün favorilere eklendi");
+
             if (i == 2) {
                 //System.out.println(markedProduct);
             }
 
         }
+
+        logger.info("Favorilere ürünler eklendi");
 
     }
 
@@ -96,17 +103,15 @@ public class SearchPage extends BasePage {
         actions.moveToElement(driver.findElement(product7)).click().build().perform();
         scrollDownMid(driver);
         actions.moveToElement(driver.findElement(addButton)).click().build().perform();
-        /*
-        //Ürünün sepete eklenme kontrolü
-        TimeUnit.SECONDS.sleep(2);
-        actions.moveToElement(driver.findElement(cartButton)).perform();
-        Assert.assertNotNull(driver.findElement(By.xpath(addToProductCheckElement)));
-        logger.info("Ürün sepete eklendi.");*/
+
+        logger.info("Ürün sepete eklendi");
 
     }
 
     //Sepete gitme
     public void goToCart(WebDriver driver) {
+
+        logger.info("Sepete gidiliyor");
 
         actions.moveToElement(driver.findElement(cartButton)).click().build().perform();
 
@@ -115,6 +120,7 @@ public class SearchPage extends BasePage {
         String cartPageCheckElementText = driver.findElement(cartPageCheckElement).getText();
 
         Assert.assertEquals("Alışveriş Sepetim",cartPageCheckElementText);
+        logger.info("Sepete gidildi");
 
     }
 

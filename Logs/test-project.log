@@ -82,3 +82,105 @@
 2021-12-03 17:54:42 INFO  Base:89 - Çıkış yapılıyor
 2021-12-03 17:54:44 INFO  Base:95 - Çıkış yapıldı
 2021-12-03 17:54:45 INFO  Base:46 - Test bitti
+2021-12-03 18:05:09 INFO  Base:29 - Test Başlıyor
+2021-12-03 18:05:13 INFO  Base:31 - Anasayfa Açıldı
+2021-12-03 18:05:13 INFO  Base:38 - Giriş yapma sayfası açılıyor
+2021-12-03 18:05:16 INFO  Base:47 - Giriş yapma sayfası açıldı
+2021-12-03 18:05:16 INFO  Base:20 - Giriş yapılıyor
+2021-12-03 18:05:18 INFO  Base:33 - Başarılı Giriş
+2021-12-03 18:05:18 INFO  Base:54 - Arama Yapılıyor
+2021-12-03 18:05:20 INFO  Base:64 - Başarılı Arama
+2021-12-03 18:05:25 INFO  Base:31 - Anasayfa Açıldı
+2021-12-03 18:05:25 INFO  Base:54 - Arama Yapılıyor
+2021-12-03 18:05:27 INFO  Base:64 - Başarılı Arama
+2021-12-03 18:05:27 INFO  Base:94 - Ürün sepete ekleniyor
+2021-12-03 18:05:31 INFO  Base:23 - Ürün adedi arttırılıyor
+2021-12-03 18:05:31 INFO  Base:29 - Ürün adedi arttırıldı
+2021-12-03 18:05:31 INFO  Base:36 - Alışveriş onay ekranına geçiliyor
+2021-12-03 18:05:35 INFO  Base:45 - Alışveriş onay ekranına geçildi
+2021-12-03 18:05:35 INFO  Base:53 - Adres kaydediliyor
+2021-12-03 18:05:35 INFO  Base:63 - Adres kaydı başarısız
+2021-12-03 18:05:35 INFO  Base:70 - Sepete gidiliyor
+2021-12-03 18:05:37 INFO  Base:79 - Sepete gidildi
+2021-12-03 18:05:38 INFO  Base:31 - Anasayfa Açıldı
+2021-12-03 18:05:38 INFO  Base:71 - Favoriler sayfasına gidiliyor
+2021-12-03 18:05:40 INFO  Base:82 - Favoriler sayfasına gidildi
+2021-12-03 18:05:41 INFO  Base:16 - Sepete ekle butonuna tıklanıyor
+2021-12-03 18:05:49 INFO  Base:89 - Çıkış yapılıyor
+2021-12-03 18:05:51 INFO  Base:95 - Çıkış yapıldı
+2021-12-03 18:05:52 INFO  Base:46 - Test bitti
+2021-12-03 18:06:09 INFO  Base:29 - Test Başlıyor
+2021-12-03 18:06:13 INFO  Base:31 - Anasayfa Açıldı
+2021-12-03 18:06:13 INFO  Base:38 - Giriş yapma sayfası açılıyor
+2021-12-03 18:06:15 INFO  Base:47 - Giriş yapma sayfası açıldı
+2021-12-03 18:06:15 INFO  Base:20 - Giriş yapılıyor
+2021-12-03 18:06:17 INFO  Base:33 - Başarılı Giriş
+2021-12-03 18:06:17 INFO  Base:54 - Arama Yapılıyor
+2021-12-03 18:06:20 INFO  Base:64 - Başarılı Arama
+2021-12-03 18:06:25 INFO  Base:31 - Anasayfa Açıldı
+2021-12-03 18:06:25 INFO  Base:54 - Arama Yapılıyor
+2021-12-03 18:06:27 INFO  Base:64 - Başarılı Arama
+2021-12-03 18:06:27 INFO  Base:94 - Ürün sepete ekleniyor
+2021-12-03 18:06:31 INFO  Base:23 - Ürün adedi arttırılıyor
+2021-12-03 18:06:31 INFO  Base:29 - Ürün adedi arttırıldı
+2021-12-03 18:06:31 INFO  Base:36 - Alışveriş onay ekranına geçiliyor
+2021-12-03 18:06:34 INFO  Base:45 - Alışveriş onay ekranına geçildi
+2021-12-03 18:06:34 INFO  Base:53 - Adres kaydediliyor
+2021-12-03 18:06:35 INFO  Base:63 - Adres kaydı başarısız
+2021-12-03 18:06:35 INFO  Base:70 - Sepete gidiliyor
+2021-12-03 18:06:36 INFO  Base:79 - Sepete gidildi
+2021-12-03 18:06:37 INFO  Base:31 - Anasayfa Açıldı
+2021-12-03 18:06:37 INFO  Base:71 - Favoriler sayfasına gidiliyor
+2021-12-03 18:06:39 INFO  Base:82 - Favoriler sayfasına gidildi
+2021-12-03 18:06:40 INFO  Base:16 - Sepete ekle butonuna tıklanıyor
+2021-12-03 18:06:43 INFO  Base:25 - Sepete ekle butonuna tıklandı
+2021-12-03 18:06:49 INFO  Base:89 - Çıkış yapılıyor
+2021-12-03 18:06:52 INFO  Base:95 - Çıkış yapıldı
+2021-12-03 18:06:53 INFO  Base:46 - Test bitti
+2021-12-03 18:34:29 INFO  Base:29 - Test Başlıyor
+2021-12-03 18:34:37 INFO  Base:46 - Test bitti
+2021-12-03 18:49:57 INFO  Base:29 - Test Başlıyor
+2021-12-03 18:50:02 INFO  Base:28 - Anasayfa Açıldı
+2021-12-03 18:50:02 INFO  Base:35 - Giriş yapma sayfası açılıyor
+2021-12-03 18:50:04 INFO  Base:44 - Giriş yapma sayfası açıldı
+2021-12-03 18:50:04 INFO  Base:20 - Giriş yapılıyor
+2021-12-03 18:50:07 INFO  Base:33 - Başarılı Giriş
+2021-12-03 18:50:07 INFO  Base:51 - Arama Yapılıyor
+2021-12-03 18:50:09 INFO  Base:61 - Başarılı Arama
+2021-12-03 18:50:09 INFO  Base:65 - Favorilere ürünler eklenmeye başlıyor
+2021-12-03 18:50:09 INFO  Base:72 - 1. ürün favorilere ekleniyor
+2021-12-03 18:50:10 INFO  Base:84 - 1. ürün favorilere eklendi
+2021-12-03 18:50:10 INFO  Base:72 - 2. ürün favorilere ekleniyor
+2021-12-03 18:50:11 INFO  Base:84 - 2. ürün favorilere eklendi
+2021-12-03 18:50:11 INFO  Base:72 - 3. ürün favorilere ekleniyor
+2021-12-03 18:50:12 INFO  Base:84 - 3. ürün favorilere eklendi
+2021-12-03 18:50:12 INFO  Base:72 - 4. ürün favorilere ekleniyor
+2021-12-03 18:50:14 INFO  Base:84 - 4. ürün favorilere eklendi
+2021-12-03 18:50:14 INFO  Base:92 - Favorilere ürünler eklendi
+2021-12-03 18:50:14 INFO  Base:28 - Anasayfa Açıldı
+2021-12-03 18:50:14 INFO  Base:51 - Arama Yapılıyor
+2021-12-03 18:50:17 INFO  Base:61 - Başarılı Arama
+2021-12-03 18:50:17 INFO  Base:101 - Ürün sepete ekleniyor
+2021-12-03 18:50:19 INFO  Base:107 - Ürün sepete eklendi
+2021-12-03 18:50:19 INFO  Base:114 - Sepete gidiliyor
+2021-12-03 18:50:21 INFO  Base:123 - Sepete gidildi
+2021-12-03 18:50:21 INFO  Base:23 - Ürün adedi arttırılıyor
+2021-12-03 18:50:21 INFO  Base:29 - Ürün adedi arttırıldı
+2021-12-03 18:50:21 INFO  Base:36 - Alışveriş onay ekranına geçiliyor
+2021-12-03 18:50:24 INFO  Base:45 - Alışveriş onay ekranına geçildi
+2021-12-03 18:50:24 INFO  Base:53 - Adres kaydediliyor
+2021-12-03 18:50:24 INFO  Base:63 - Adres kaydı başarısız
+2021-12-03 18:50:24 INFO  Base:70 - Sepete gidiliyor
+2021-12-03 18:50:26 INFO  Base:79 - Sepete gidildi
+2021-12-03 18:50:27 INFO  Base:28 - Anasayfa Açıldı
+2021-12-03 18:50:27 INFO  Base:68 - Favoriler sayfasına gidiliyor
+2021-12-03 18:50:29 INFO  Base:79 - Favoriler sayfasına gidildi
+2021-12-03 18:50:29 INFO  Base:27 - Ürün sepete ekleniyor
+2021-12-03 18:50:30 INFO  Base:16 - Sepete ekle butonuna tıklanıyor
+2021-12-03 18:50:33 INFO  Base:25 - Sepete ekle butonuna tıklandı
+2021-12-03 18:50:33 INFO  Base:44 - Ürün sepete eklendi.
+2021-12-03 18:50:33 INFO  Base:74 - Ürün favorilerden siliniyor
+2021-12-03 18:50:35 INFO  Base:92 - Ürün favorilerden silindi
+2021-12-03 18:50:39 INFO  Base:86 - Çıkış yapılıyor
+2021-12-03 18:50:42 INFO  Base:92 - Çıkış yapıldı
+2021-12-03 18:50:43 INFO  Base:46 - Test bitti

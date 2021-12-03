@@ -4,8 +4,6 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class Homepage extends BasePage {
@@ -22,7 +20,6 @@ public class Homepage extends BasePage {
     By loginPageCheckElement = By.xpath("//div[@class=\"gg-login-head\"]");
 
     String searchCheck;
-    //Set<String> windowHandles;
 
     public void goToHomepage(WebDriver driver){
 

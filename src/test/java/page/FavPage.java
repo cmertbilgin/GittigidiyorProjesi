@@ -24,6 +24,8 @@ public class FavPage extends BasePage {
     //ürün sayfasını yan tab içerside açıp ekleme ve tab kapama işlemi
     public void addToProduct(WebDriver driver) throws InterruptedException {
 
+        logger.info("Ürün sepete ekleniyor");
+
         currentWindow = driver.getWindowHandle();
         String currentWindow2;
 
@@ -38,6 +40,8 @@ public class FavPage extends BasePage {
         currentWindow2 = driver.getWindowHandle();
 
         productPage.addProduct(driver);
+
+        logger.info("Ürün sepete eklendi.");
 
         driver.switchTo().window(currentWindow2).close();
         driver.switchTo().window(currentWindow);
@@ -67,6 +71,8 @@ public class FavPage extends BasePage {
     //Ürünü silme işlemleri
     public void removeFavProduct(WebDriver driver) throws InterruptedException {
 
+        logger.info("Ürün favorilerden siliniyor");
+
         //setFavProductList();
 
         /*for (int i = 0; i < 4; i++) {
@@ -82,6 +88,8 @@ public class FavPage extends BasePage {
         actions.moveToElement(driver.findElement(favProductElement)).click().build().perform();
         TimeUnit.SECONDS.sleep(1);
         actions.moveToElement(driver.findElement(removeButton)).click().build().perform();
+
+        logger.info("Ürün favorilerden silindi");
 
     }
 
